@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-export default () => (
+const H = () => (
   <Head>
     <meta charSet="UTF-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -9,3 +9,5 @@ export default () => (
     <link rel="shortcut icon" href="/mnist.png" type="image/x-icon" />
   </Head>
 );
+
+export default H;
