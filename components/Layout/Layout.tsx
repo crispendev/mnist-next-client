@@ -4,9 +4,9 @@ import styles from "./Layout.module.css";
 
 const Layout: React.FC = ({ children }) => {
   return (
-    <div>
+    <div className={styles.layout__layout}>
       <Head />
-      <div className={styles.layout}>{children}</div>;
+      <div className={styles.layout__container}>{children}</div>
     </div>
   );
 };
